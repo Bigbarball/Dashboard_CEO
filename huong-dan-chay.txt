@@ -1,0 +1,2 @@
+docker build -t super-set .
+docker run -p 8080:80 super-set
