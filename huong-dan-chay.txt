@@ -1,2 +1,3 @@
 docker build -t super-set .
-docker run -p 8080:80 super-set
+docker run -p 8002:80 super-set
+ssh administrator@192.168.1.240 -p 22
