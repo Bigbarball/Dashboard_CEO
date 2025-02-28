@@ -1,3 +1,5 @@
 docker build -t super-set .
 docker run -p 8002:80 super-set
 ssh administrator@192.168.1.240 -p 22
+docker ps //check các docker đang chạy
+docker rm -f xxx //xóa docker đang chạy
